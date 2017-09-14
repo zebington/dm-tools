@@ -1,0 +1,15 @@
+{
+  "short_name": "Encounters",
+  "name": "Encounter Tracker",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#eeeeee",
+  "background_color": "#eeeeee"
+}

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DDDDDD;
+}
+
+.app {
+    max-width: 48rem;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    padding: 1rem 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,.25);
+    border-radius: 0.5rem;
+}
+
+.tracker {
+    background-color: #FFFFFF;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,.25);
+    margin-bottom: 1rem;
+}
+
+.name-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.name-line .initiative {
+    width: 3rem;
+}
+
+.stat-block p {
+    font-size: .75rem;
+    margin: 0;
+}
+
+.stat-block h2 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.stat-block table {
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.stat-block .hp {
+    margin: 0 .5rem;
+    width: 3rem;
+}
+
+.control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.control .add {
+    display: inline;
+}
+
+.control .add label {
+    font-size: .75rem;
+}
+
