@@ -69,3 +69,30 @@ body {
     font-size: .75rem;
 }
 
+.add-form fieldset {
+    display: grid;
+}
+
+.add-form label::after {
+    content: ': '
+}
+
+.add-form input, .add-form textarea {
+    margin-bottom: .5rem;
+}
+
+.add-form table td {
+    text-align: center;
+}
+
+.add-form table label::after {
+    content: '';
+}
+
+.add-form table input {
+    width: 2.5rem;
+}
+
+.add-form fieldset fieldset {
+    margin-bottom: .5rem;
+}
